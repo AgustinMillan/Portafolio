@@ -5,14 +5,12 @@ import Button from "@mui/material/Button";
 import swal from "sweetalert";
 import emailjs from '@emailjs/browser';
 
-console.log(import.meta.env.VITE_USER)
 function Contactame() {
   // const msj = useState({ titulo: "", mensaje: "" });
   const enviar = async (e) => {
     e.preventDefault();
     await emailjs.sendForm(import.meta.env.VITE_SERVICE,import.meta.env.VITE_TEMPLATE,e.target,import.meta.env.VITE_USER)
     await swal("Mensaje enviado", "", "success");
-    location.reload();
   };
   // const cambiotitulo = (e) => {
   //   msj.titulo = e.target.value;
