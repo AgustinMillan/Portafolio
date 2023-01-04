@@ -10,7 +10,7 @@ function Contactame() {
   // const msj = useState({ titulo: "", mensaje: "" });
   const enviar = async (e) => {
     e.preventDefault();
-    emailjs.sendForm(import.meta.env.VITE_SERVICE,import.meta.env.VITE_TEMPLATE,e.target,import.meta.env.VITE_USER)
+    await emailjs.sendForm(import.meta.env.VITE_SERVICE,import.meta.env.VITE_TEMPLATE,e.target,import.meta.env.VITE_USER)
     await swal("Mensaje enviado", "", "success");
     location.reload();
   };
