@@ -1,0 +1,39 @@
+.contSkillsImgs{
+    flex-flow: nowrap;
+}
+.contSkillsImgs{
+    max-width: 80%;
+
+}
+.contIzqImgs{
+    margin-top: 15vh;
+    margin-left: 5vh;
+}
+.imgExpressSkill{
+    max-width: 20vh;
+    max-height: 13vh;
+    min-width: 8vh;
+    min-height: 8vh;
+}
+.contGrlSM1{
+    height: 93vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contCuadradoCent1{
+    align-items: flex-start;
+    background-color: rgb(183, 178, 178);
+    display: flex;
+    opacity: 80%;
+    justify-content: center;
+    border-radius: 12px;
+    min-width: 75%;
+    max-width: 75%;
+    height: 75vh;
+    animation-name: InicioSobreMi;
+    animation-duration: 4s;
+    border-color: rgb(190, 187, 14);
+    border-style: solid;
+}

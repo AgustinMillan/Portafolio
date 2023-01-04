@@ -1,0 +1,61 @@
+.contGrlSM{
+    height: 93vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contCuadradoCent{
+    background-color: rgb(183, 178, 178);
+    display: flex;
+    opacity: 80%;
+    justify-content: space-around;
+    border-radius: 12px;
+    min-width: 75%;
+    max-width: 75%;
+    height: 75vh;
+    animation-name: InicioSobreMi;
+    animation-duration: 4s;
+    border-color: rgb(190, 187, 14);
+    border-style: solid;
+}
+
+
+@keyframes InicioSobreMi {
+    0%{
+        margin-bottom: 100%;
+        opacity: 0%;
+    }
+    100%{
+        margin-bottom: 0%;
+        opacity: 80%;
+    }
+}
+#fotoAM{
+    background-image: url(../images/amimagepr.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+    min-width: 30%;
+    min-height: 80%;
+    max-width: 30%;
+    max-height: 80%;
+    align-self: center;
+}
+.contTextoSM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#tituloSM1{
+    font-size: 3vh;
+    color: rgb(235, 232, 47);
+    font-weight: bolder;
+    font-family: "Arsenal", sans-serif;
+}
+
+#p1SM{
+    font-size:2vh;
+}

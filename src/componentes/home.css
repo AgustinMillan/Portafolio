@@ -1,0 +1,109 @@
+.contInicio {
+  width: 100vh;
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contInicioAM {
+  display: flex;
+  flex-direction: row;
+}
+#bienvenido {
+  font-size: 13vh;
+  color: antiquewhite;
+  animation-name: bienvenidoA;
+  animation-duration: 4s;
+}
+@keyframes bienvenidoA {
+  0% {
+    margin-bottom: 100vh;
+    opacity: 0%;
+  }
+  50% {
+    opacity: 25%;
+  }
+  100% {
+    margin-bottom: 0vh;
+    opacity: 100%;
+  }
+}
+#yoSoy {
+  font-size: 9vh;
+  color: antiquewhite;
+  animation-name: yoSoyA;
+  animation-duration: 4s;
+}
+@keyframes yoSoyA {
+  0% {
+    margin-bottom: -100vh;
+    opacity: 0%;
+  }
+  50% {
+    opacity: 25%;
+  }
+  100% {
+    margin-bottom: 0vh;
+    opacity: 100%;
+  }
+}
+#agustinMillan {
+  font-size: 10vh;
+  color: rgb(235, 232, 47);
+  animation-name: agustinMillanA;
+  animation-duration: 4s;
+}
+@keyframes agustinMillanA {
+  0% {
+    margin-bottom: -100vh;
+    opacity: 0%;
+  }
+  100% {
+    margin-bottom: 0vh;
+    opacity: 100%;
+  }
+}
+.divisor {
+  background-color: whitesmoke;
+  height: 55vh;
+}
+.contExterior {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation-name: separadorA;
+  animation-duration: 4s;
+  overflow-y: hidden;
+}
+@keyframes separadorA {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+#fullStack {
+    position: relative;
+  font-size: 12vh;
+  color: rgb(235, 232, 47);
+  animation-name: fullStackA;
+  animation-duration: 3s;
+}
+#developer {
+  font-size: 13vh;
+  color: antiquewhite;
+  animation-name: fullStackA;
+  animation-duration: 8s;
+}
+@keyframes fullStackA {
+  0% {
+    margin-left: -100vh;
+    opacity: 0%;
+  }
+  100% {
+    margin-left: 0vh;
+    opacity: 100%;
+  }
+}

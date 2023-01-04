@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Arsenal", sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
