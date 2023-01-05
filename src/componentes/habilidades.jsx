@@ -10,12 +10,12 @@ function Habilidades() {
           <div className="contSkillsImgs">
             <img
               className="imgExpressSkill"
-              src="src\images\lengua.png"
+              src="..\images\lengua.png"
               alt="lenguajes"
             />
             <img
               className="imgExpressSkill"
-              src="src\images\express.png"
+              src="..\images\express.png"
               alt="express"
             />
             <img
@@ -25,17 +25,17 @@ function Habilidades() {
             />
             <img
               className="imgExpressSkill"
-              src="src\images\react.png"
+              src="..\images\react.png"
               alt="react"
             />
             <img
               className="imgExpressSkill"
-              src="src\images\redux.png"
+              src="..\images\redux.png"
               alt="redux"
             />
             <img
               className="imgExpressSkill"
-              src="src\images\sequelize.png"
+              src="..\images\sequelize.png"
               alt="seque"
             />
           </div>
@@ -45,12 +45,12 @@ function Habilidades() {
           <div className="contSkillsImgs">
             <img
               className="imgExpressSkill"
-              src="src\images\socketio.png"
+              src="..\images\socketio.png"
               alt="socket"
             />
             <img
               className="imgExpressSkill"
-              src="src\images\python.png"
+              src="..\images\python.png"
               alt="python"
             />
           </div>
