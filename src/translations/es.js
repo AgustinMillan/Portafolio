@@ -85,7 +85,7 @@ const esTranslations = {
       interactiveMap: {
         title: "Mapa interactivo",
         description:
-          "Mapa interactivo de Chile diseñado para manejar grandes cantidades de datos hidrograficos, manejando shapefiles y datos geoespaciales. El cliente queria que sea completamente Frontend, por lo que implementamos un sistema de capas para manejar los datos de manera eficiente.",
+          "Mapa interactivo de Chile diseñado para manejar grandes cantidades de datos hidrograficos, manejando shapefiles y datos geoespaciales. El cliente queria que sea completamente Frontend, por lo que implementamos un sistema de capaz para manejar los datos de manera eficiente.",
       },
       belenusCL: {
         title: "Implementaciones para BelenusCL",
