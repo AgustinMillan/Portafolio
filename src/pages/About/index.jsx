@@ -240,7 +240,6 @@ const About = () => {
             {t("about.paragraph2")
               .replace("RESTful APIs", "<h1>")
               .replace("database architectures", "<h2>")
-              .replace("microservices", "<h3>")
               .split("<h1>")
               .map((part, i) =>
                 i === 0 ? (
