@@ -282,7 +282,7 @@ const Contact = () => {
     message: null,
     type: null,
   });
-  
+
   // Definición de variantes de animación
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -322,10 +322,9 @@ const Contact = () => {
 
     // Preparamos los parámetros para la plantilla de correo
     const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
-      subject: formData.subject,
-      message: formData.message,
+      user_name: formData.name,
+      user_email: formData.email,
+      message: formData.subject + "\n\n" + formData.message,
       reply_to: formData.email,
       to_name: "Agustín Millán",
       to_email: EMAIL_CONFIG.SMTP_USER,
