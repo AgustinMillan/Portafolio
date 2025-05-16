@@ -9,6 +9,7 @@ const esTranslations = {
     experience: "Experiencia",
     skills: "Habilidades",
     contact: "Contacto",
+    portfolio: "Portafolio",
   },
 
   // Home page
@@ -139,7 +140,7 @@ const esTranslations = {
 
   // Experience page
   experience: {
-    title: "Experiencia (3 años)",
+    title: "Experiencia",
     educationTitle: "Educación",
     companies: {
       bosquestudio: {

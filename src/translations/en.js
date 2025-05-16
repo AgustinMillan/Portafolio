@@ -10,6 +10,7 @@ const enTranslations = {
     experience: "Experience",
     skills: "Skills",
     contact: "Contact",
+    portfolio: "Portfolio",
   },
 
   // Home page
@@ -140,7 +141,7 @@ const enTranslations = {
 
   // Experience page
   experience: {
-    title: "Experience (3 years)",
+    title: "Experience",
     educationTitle: "Education",
     companies: {
       bosquestudio: {
