@@ -209,6 +209,19 @@ const Experience = () => {
   // Work experience data
   const workExperience = [
     {
+      id: 0,
+      company: t("experience.companies.worldsys.company"),
+      title: t("experience.companies.worldsys.title"),
+      url: "https://example.com",
+      duration: t("experience.companies.worldsys.duration"),
+      duties: [
+        t("experience.companies.worldsys.duties.0"),
+        t("experience.companies.worldsys.duties.1"),
+        t("experience.companies.worldsys.duties.2"),
+        t("experience.companies.worldsys.duties.3"),
+      ],
+    },
+    {
       id: 1,
       company: t("experience.companies.bosquestudio.company"),
       title: t("experience.companies.bosquestudio.title"),

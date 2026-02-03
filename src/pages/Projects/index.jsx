@@ -342,6 +342,20 @@ const Projects = () => {
       techStack: ["MySQL", "Automatized", "Node.js", "MigrateDB", "Sequelize"],
       liveLink: "https://www.metrogas.cl/",
     },
+    {
+      id: 7,
+      title: t("projects.other.gpsfleet.title"),
+      description: t("projects.other.gpsfleet.description"),
+      techStack: [
+        "Node.js",
+        "Express",
+        "Postgressql",
+        "Sequelize",
+        "Traccar API",
+        "geolocation",
+      ],
+      githubLink: "https://github.com/AgustinMillan/TRACCAR-GPS-BE",
+    },
   ];
 
   // Animation variants

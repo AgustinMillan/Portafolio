@@ -1,3 +1,5 @@
+import { title } from "framer-motion/client";
+
 const esTranslations = {
   // Common
   loading: "Cargando...",
@@ -98,6 +100,11 @@ const esTranslations = {
         description:
           "Mantencion de la base de datos de MetroGas Chile, empresa de gas natural lider en Chile. Se creo un sistema automtizado para la actualizacion de más de 650 mil registros que deben ser aactualizado mes a mes para la toma de lectura en medidores de los clientes.",
       },
+      gpsfleet: {
+        title: "API para sistema de gestion de flotas GPS",
+        description:
+          "API para sistema de gestion de flotas GPS, con funcionalidades para manejar vehiculos, rutas, geocercas y reportes. La API fue diseñada para ser escalable y segura, permitiendo la integracion con diferentes dispositivos GPS y aplicaciones frontend.",
+      },
     },
   },
 
@@ -143,10 +150,21 @@ const esTranslations = {
     title: "Experiencia",
     educationTitle: "Educación",
     companies: {
+      worldsys: {
+        title: "Backend Engineer",
+        company: "Worldsys, Argentina (remoto)",
+        duration: "Julio 2025 - Enero 2026",
+        duties: [
+          "Migración de su aplicación principal a microservicios.",
+          "Migré  la tecnología de Rabbit MQ a Nats para paralelizar sus procesos y mejorar el escalado horizontal.",
+          "Gestión de ambientes de desarrollo en Azure.",
+          "Mejorar algoritmos de validación y cola de mensajes.",
+        ],
+      },
       bosquestudio: {
         title: "Profesional Independiente",
         company: "Bosquestudio, Chile (remoto)",
-        duration: "Septiembre 2024 - Presente",
+        duration: "Septiembre 2024 - Enero 2026",
         duties: [
           "Migración de sitios WordPress a React con backend en Node.js.",
           "Desarrollo de herramientas de automatización para WordPress.",
