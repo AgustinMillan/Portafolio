@@ -1,5 +1,3 @@
-import { title } from "framer-motion/client";
-
 const esTranslations = {
   // Common
   loading: "Cargando...",

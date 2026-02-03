@@ -52,31 +52,12 @@ const Highlight = styled.span`
 `;
 
 const ContactContent = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: ${theme.spacing.xl};
+  display: flex;
+  flex-direction: column;
 
   @media (min-width: ${theme.breakpoints.lg}) {
     grid-template-columns: 1fr 1fr;
   }
-`;
-
-const ContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: ${theme.spacing.md};
-  width: 100%;
-  position: relative;
-  background-color: ${theme.colors.primaryLight};
-  padding: ${theme.spacing.xl};
-  border-radius: ${theme.borderRadius.md};
-  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
-`;
-
-const FormGroup = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: ${theme.spacing.sm};
 `;
 
 const Label = styled.label`
@@ -100,56 +81,6 @@ const Input = styled.input`
   }
 `;
 
-const Textarea = styled.textarea`
-  padding: ${theme.spacing.md};
-  background-color: ${theme.colors.primary};
-  border: 1px solid ${theme.colors.primaryLight};
-  border-radius: ${theme.borderRadius.sm};
-  color: ${theme.colors.text};
-  font-size: ${theme.fontSizes.md};
-  min-height: 150px;
-  resize: vertical;
-  transition: ${theme.transitions.default};
-
-  &:focus {
-    outline: none;
-    border-color: ${theme.colors.secondary};
-    box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.2);
-  }
-`;
-
-const SubmitButton = styled.button`
-  padding: ${theme.spacing.md} ${theme.spacing.lg};
-  background-color: ${theme.colors.secondary};
-  color: ${theme.colors.text};
-  border: none;
-  border-radius: ${theme.borderRadius.sm};
-  font-size: ${theme.fontSizes.md};
-  font-weight: 600;
-  cursor: pointer;
-  transition: ${theme.transitions.default};
-  margin-top: ${theme.spacing.md};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: ${theme.spacing.sm};
-
-  &:hover {
-    background-color: ${theme.colors.secondaryLight};
-    transform: translateY(-3px);
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
-
-  &:disabled {
-    background-color: ${theme.colors.textSecondary};
-    cursor: not-allowed;
-    transform: none;
-  }
-`;
-
 const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -158,7 +89,7 @@ const ContactInfo = styled.div`
 
 const ContactInfoItem = styled(motion.div)`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: ${theme.spacing.md};
   padding: ${theme.spacing.lg};
   background-color: ${theme.colors.primaryLight};
@@ -372,12 +303,12 @@ const Contact = () => {
         {t("contact.description")
           .split("open to new opportunities")
           .map((part, i) =>
-            i === 0 ? <React.Fragment key={i}>{part}</React.Fragment> : part
+            i === 0 ? <React.Fragment key={i}>{part}</React.Fragment> : part,
           )}
       </ContactDescription>
 
       <ContactContent>
-        <ContactForm ref={formRef} onSubmit={handleSubmit}>
+        {/* <ContactForm ref={formRef} onSubmit={handleSubmit}>
           <FormGroup>
             <Label htmlFor="name">{t("contact.form.name")}</Label>
             <Input
@@ -451,7 +382,7 @@ const Contact = () => {
               {status.message}
             </StatusMessage>
           )}
-        </ContactForm>
+        </ContactForm> */}
 
         <ContactInfo
           as={motion.div}

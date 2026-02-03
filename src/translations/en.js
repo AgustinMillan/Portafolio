@@ -99,6 +99,11 @@ const enTranslations = {
         description:
           "Automated system for monthly updates of over 650,000 records used for customer meter readings. Supporting the operations of Chile’s leading natural gas company.",
       },
+      gpsfleet: {
+        title: "API for GPS Fleet Management System",
+        description:
+          "API for a GPS fleet management system, featuring functionalities to manage vehicles, routes, geofences, and reports. The API was designed to be scalable and secure, enabling integration with multiple GPS devices and frontend applications.",
+      },
     },
   },
 
@@ -144,6 +149,17 @@ const enTranslations = {
     title: "Experience",
     educationTitle: "Education",
     companies: {
+      worldsys: {
+        title: "Backend Engineer",
+        company: "Worldsys, Argentina (Remote)",
+        duration: "July 2025 - January 2026",
+        duties: [
+          "Led the migration of the main application to a microservices architecture.",
+          "Migrated messaging infrastructure from RabbitMQ to NATS to parallelize processes and improve horizontal scalability.",
+          "Managed development environments on Azure.",
+          "Improved validation algorithms and message queue processing.",
+        ],
+      },
       bosquestudio: {
         title: "Freelance Professional",
         company: "Bosquestudio, Chile (remote)",
